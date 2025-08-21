@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yourusername/spotify-to-ytmusic-go/internal/spotify"
-	"github.com/yourusername/spotify-to-ytmusic-go/internal/ytmusic"
+	"spotify-to-ytmusic-go/internal/spotify"
+	"spotify-to-ytmusic-go/internal/ytmusic"
 )
 
 type TransferService struct {
