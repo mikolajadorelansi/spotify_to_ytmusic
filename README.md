@@ -38,8 +38,25 @@ spotify-to-ytmusic-go
    go mod tidy
    ```
 
-3. **Configure environment variables:**
-   Set up your Spotify and YouTube Music API credentials in your environment. You can create a `.env` file or export them directly in your shell.
+3. **Configure API credentials:**
+   There are two ways to configure your Spotify and YouTube Music API credentials:
+
+   a. Using a configuration file (recommended):
+      - Copy `config.yaml.example` to `config.yaml`
+      - Fill in your API keys in the `config.yaml` file:
+        ```yaml
+        spotify_api_key: "your-spotify-api-key"
+        youtube_music_api_key: "your-youtube-music-api-key"
+        ```
+
+   b. Using environment variables:
+      Set the following environment variables:
+      ```
+      SPOTIFY_API_KEY=your-spotify-api-key
+      YOUTUBE_MUSIC_API_KEY=your-youtube-music-api-key
+      ```
+      
+   The application will first look for a `config.yaml` file and fall back to environment variables if the file is not found or values are missing.
 
 4. **Run the application:**
    Use the following command to start the application:

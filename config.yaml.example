@@ -1,0 +1,8 @@
+# Configuration for spotify_to_ytmusic
+# Rename this file to config.yaml and fill in your API keys
+
+# Spotify API key
+spotify_api_key: ""
+
+# YouTube Music API key
+youtube_music_api_key: ""

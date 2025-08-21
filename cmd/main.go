@@ -2,9 +2,10 @@ package main
 
 import (
 	"log"
-	"spotify_to_ytmusic/config"
 
-	"spotify_to_ytmusic/internal/transfer"
+	"github.com/mikolajadorelansi/spotify_to_ytmusic/config"
+
+	"github.com/mikolajadorelansi/spotify_to_ytmusic/internal/transfer"
 )
 
 func main() {

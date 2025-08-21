@@ -1,9 +1,10 @@
 package spotify
 
 type Playlist struct {
-	ID    string  `json:"id"`
-	Name  string  `json:"name"`
-	Tracks []Track `json:"tracks"`
+	ID          string  `json:"id"`
+	Name        string  `json:"name"`
+	Description string  `json:"description"`
+	Tracks      []Track `json:"tracks"`
 }
 
 type Track struct {
