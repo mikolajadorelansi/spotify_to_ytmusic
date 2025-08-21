@@ -4,7 +4,7 @@ import (
 	"log"
 	"spotify_to_ytmusic/config"
 
-	"github.com/mikolajadorelansi/spotify_to_ytmusic/internal/transfer"
+	"spotify_to_ytmusic/internal/transfer"
 )
 
 func main() {
