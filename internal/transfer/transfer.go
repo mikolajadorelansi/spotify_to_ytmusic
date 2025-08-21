@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yourusername/spotify-to-ytmusic-go/internal/spotify"
-	"github.com/yourusername/spotify-to-ytmusic-go/internal/ytmusic"
+	"github.com/mikolajadorelansi/spotify_to_ytmusic/internal/spotify"
+	"github.com/mikolajadorelansi/spotify_to_ytmusic/internal/ytmusic"
 )
 
 type TransferService struct {
-	SpotifyClient  *spotify.SpotifyClient
-	YouTubeClient  *ytmusic.YouTubeMusicClient
+	SpotifyClient *spotify.SpotifyClient
+	YouTubeClient *ytmusic.YouTubeMusicClient
 }
 
 func NewTransferService(spotifyClient *spotify.SpotifyClient, youTubeClient *ytmusic.YouTubeMusicClient) *TransferService {
