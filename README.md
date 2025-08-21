@@ -29,7 +29,7 @@ spotify-to-ytmusic-go
 1. **Clone the repository:**
    ```
    git clone https://github.com/mikolajadorelansi/spotify_to_ytmusic.git
-   cd spotify-to-ytmusic-go
+   cd spotify_to_ytmusic
    ```
 
 2. **Install dependencies:**
